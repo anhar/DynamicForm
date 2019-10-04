@@ -8,30 +8,9 @@
 
 import Foundation
 
-struct ItemModel: Identifiable {
-    public let id = UUID()
-    public let placeholder: String
-    public var value: String = ""
-    
-    init(placeholder: String) {
-        self.placeholder = placeholder
-    }
-}
-
-struct SectionModel: Identifiable {
-    public let id = UUID()
-    public let title: String
-    public let items: [ItemModel]
-    
-    init(title: String, items: [ItemModel]) {
-        self.title = title
-        self.items = items
-    }
-}
-
 class RegisterViewModel: ObservableObject {
-    public let navigationTitle: String
-    public let sections: [SectionModel]
+    @Published public var navigationTitle: String
+    @Published public var sections: [SectionModel]
     
     init() {
         self.navigationTitle = "Register"
