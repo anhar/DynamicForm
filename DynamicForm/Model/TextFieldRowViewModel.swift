@@ -1,5 +1,5 @@
 //
-//  ItemModel.swift
+//  TextFieldRowViewModel.swift
 //  DynamicForm
 //
 //  Created by Andreas Hård on 2019-10-04.
@@ -8,13 +8,14 @@
 
 import Foundation
 
-class ItemModel: ObservableObject, Identifiable {
+class TextFieldRowViewModel: ObservableObject, Identifiable {
     public let id = UUID()
     @Published public var placeholder: String
     @Published public var value: String = ""
+    @Published public var styling: TextFieldStylingModel
     
-    init(placeholder: String) {
-        self.placeholder = placeholder
+    init(response: TextFieldRowModel) {
+        self.placeholder = response.placeholder
+        self.styling = response.styling
     }
 }
-

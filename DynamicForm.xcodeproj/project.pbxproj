@@ -7,25 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E16C5EE42347CE2600038F4D /* TextViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C5EE32347CE2600038F4D /* TextViewRow.swift */; };
-		E16C5EE62347CEED00038F4D /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C5EE52347CEED00038F4D /* ItemModel.swift */; };
-		E16C5EE82347CF0D00038F4D /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C5EE72347CF0D00038F4D /* SectionModel.swift */; };
+		E112370623BE0ACF00F597DA /* demo_content.json in Resources */ = {isa = PBXBuildFile; fileRef = E112370523BE0ACF00F597DA /* demo_content.json */; };
+		E1149459234AA5FF00FFE3FD /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1149458234AA5FF00FFE3FD /* SectionModel.swift */; };
+		E114945B234AA62600FFE3FD /* StylingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E114945A234AA62600FFE3FD /* StylingModel.swift */; };
+		E114945D234AA64800FFE3FD /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E114945C234AA64800FFE3FD /* ResponseModel.swift */; };
+		E122F82B2347EE8B00F51DEC /* RowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E122F82A2347EE8B00F51DEC /* RowModel.swift */; };
+		E16C5EE42347CE2600038F4D /* TextFieldRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C5EE32347CE2600038F4D /* TextFieldRowView.swift */; };
+		E16C5EE62347CEED00038F4D /* TextFieldRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C5EE52347CEED00038F4D /* TextFieldRowViewModel.swift */; };
+		E16C5EE82347CF0D00038F4D /* SectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C5EE72347CF0D00038F4D /* SectionViewModel.swift */; };
 		E16C5EEA2347D08F00038F4D /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C5EE92347D08F00038F4D /* SectionView.swift */; };
 		E16C5EEC2347D2BC00038F4D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C5EEB2347D2BC00038F4D /* RegisterView.swift */; };
+		E16D6CD42352060A0040AD73 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D6CD32352060A0040AD73 /* RegisterViewModel.swift */; };
+		E16D6CD6235206A80040AD73 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D6CD5235206A80040AD73 /* ImageViewModel.swift */; };
+		E16D6CD823520CD00040AD73 /* RowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D6CD723520CD00040AD73 /* RowViewModel.swift */; };
+		E16D6CDA23520D270040AD73 /* ButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D6CD923520D270040AD73 /* ButtonViewModel.swift */; };
+		E16D6CDC23523CE40040AD73 /* ImageViewRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D6CDB23523CE40040AD73 /* ImageViewRowView.swift */; };
+		E16D6CDE23523DA50040AD73 /* ButtonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D6CDD23523DA50040AD73 /* ButtonRowView.swift */; };
+		E17075932351307D001E0D2B /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17075922351307D001E0D2B /* ColorModel.swift */; };
 		E172110A2341157100C97303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17211092341157100C97303 /* AppDelegate.swift */; };
 		E172110C2341157100C97303 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E172110B2341157100C97303 /* SceneDelegate.swift */; };
 		E17211102341157400C97303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E172110F2341157400C97303 /* Assets.xcassets */; };
 		E17211132341157500C97303 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17211122341157500C97303 /* Preview Assets.xcassets */; };
 		E17211162341157500C97303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17211142341157500C97303 /* LaunchScreen.storyboard */; };
-		E172111F234115A400C97303 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E172111E234115A400C97303 /* RegisterModel.swift */; };
+		E17DE481234D7857007E20EF /* DynamicFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DE480234D7856007E20EF /* DynamicFormTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E1149453234A254F00FFE3FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E17210FE2341157100C97303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E17211052341157100C97303;
+			remoteInfo = DynamicForm;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		E16C5EE32347CE2600038F4D /* TextViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewRow.swift; sourceTree = "<group>"; };
-		E16C5EE52347CEED00038F4D /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
-		E16C5EE72347CF0D00038F4D /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		E112370523BE0ACF00F597DA /* demo_content.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = demo_content.json; sourceTree = "<group>"; };
+		E114944E234A254F00FFE3FD /* DynamicFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1149452234A254F00FFE3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1149458234AA5FF00FFE3FD /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		E114945A234AA62600FFE3FD /* StylingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylingModel.swift; sourceTree = "<group>"; };
+		E114945C234AA64800FFE3FD /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		E122F82A2347EE8B00F51DEC /* RowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowModel.swift; sourceTree = "<group>"; };
+		E16C5EE32347CE2600038F4D /* TextFieldRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldRowView.swift; sourceTree = "<group>"; };
+		E16C5EE52347CEED00038F4D /* TextFieldRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldRowViewModel.swift; sourceTree = "<group>"; };
+		E16C5EE72347CF0D00038F4D /* SectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewModel.swift; sourceTree = "<group>"; };
 		E16C5EE92347D08F00038F4D /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		E16C5EEB2347D2BC00038F4D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		E16D6CD32352060A0040AD73 /* RegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewModel.swift; path = DynamicForm/Model/RegisterViewModel.swift; sourceTree = SOURCE_ROOT; };
+		E16D6CD5235206A80040AD73 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		E16D6CD723520CD00040AD73 /* RowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViewModel.swift; sourceTree = "<group>"; };
+		E16D6CD923520D270040AD73 /* ButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewModel.swift; sourceTree = "<group>"; };
+		E16D6CDB23523CE40040AD73 /* ImageViewRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewRowView.swift; sourceTree = "<group>"; };
+		E16D6CDD23523DA50040AD73 /* ButtonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRowView.swift; sourceTree = "<group>"; };
+		E17075922351307D001E0D2B /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 		E17211062341157100C97303 /* DynamicForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17211092341157100C97303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E172110B2341157100C97303 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,10 +69,17 @@
 		E17211122341157500C97303 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E17211152341157500C97303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E17211172341157500C97303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E172111E234115A400C97303 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		E17DE480234D7856007E20EF /* DynamicFormTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicFormTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E114944B234A254F00FFE3FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E17211032341157100C97303 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,12 +90,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E112370423BE0A8D00F597DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E112370523BE0ACF00F597DA /* demo_content.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E114944F234A254F00FFE3FD /* DynamicFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				E17DE480234D7856007E20EF /* DynamicFormTests.swift */,
+				E1149452234A254F00FFE3FD /* Info.plist */,
+			);
+			path = DynamicFormTests;
+			sourceTree = "<group>";
+		};
+		E122F8282347EE6F00F51DEC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E122F8292347EE7600F51DEC /* ResponseModels */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E122F8292347EE7600F51DEC /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				E122F82A2347EE8B00F51DEC /* RowModel.swift */,
+				E1149458234AA5FF00FFE3FD /* SectionModel.swift */,
+				E114945A234AA62600FFE3FD /* StylingModel.swift */,
+				E114945C234AA64800FFE3FD /* ResponseModel.swift */,
+				E17075922351307D001E0D2B /* ColorModel.swift */,
+			);
+			path = ResponseModels;
+			sourceTree = "<group>";
+		};
 		E16C5EE02347CDAD00038F4D /* Register */ = {
 			isa = PBXGroup;
 			children = (
-				E16C5EE32347CE2600038F4D /* TextViewRow.swift */,
+				E16C5EE32347CE2600038F4D /* TextFieldRowView.swift */,
 				E16C5EE92347D08F00038F4D /* SectionView.swift */,
 				E16C5EEB2347D2BC00038F4D /* RegisterView.swift */,
+				E16D6CDB23523CE40040AD73 /* ImageViewRowView.swift */,
+				E16D6CDD23523DA50040AD73 /* ButtonRowView.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -61,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				E17211082341157100C97303 /* DynamicForm */,
+				E114944F234A254F00FFE3FD /* DynamicFormTests */,
 				E17211072341157100C97303 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				E17211062341157100C97303 /* DynamicForm.app */,
+				E114944E234A254F00FFE3FD /* DynamicFormTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +160,8 @@
 		E17211082341157100C97303 /* DynamicForm */ = {
 			isa = PBXGroup;
 			children = (
+				E112370423BE0A8D00F597DA /* Resources */,
+				E122F8282347EE6F00F51DEC /* Network */,
 				E17211202341160000C97303 /* Views */,
 				E172111D2341158C00C97303 /* Model */,
 				E17211092341157100C97303 /* AppDelegate.swift */,
@@ -99,9 +185,12 @@
 		E172111D2341158C00C97303 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E172111E234115A400C97303 /* RegisterModel.swift */,
-				E16C5EE52347CEED00038F4D /* ItemModel.swift */,
-				E16C5EE72347CF0D00038F4D /* SectionModel.swift */,
+				E16D6CD32352060A0040AD73 /* RegisterViewModel.swift */,
+				E16C5EE52347CEED00038F4D /* TextFieldRowViewModel.swift */,
+				E16C5EE72347CF0D00038F4D /* SectionViewModel.swift */,
+				E16D6CD5235206A80040AD73 /* ImageViewModel.swift */,
+				E16D6CD723520CD00040AD73 /* RowViewModel.swift */,
+				E16D6CD923520D270040AD73 /* ButtonViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -117,6 +206,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E114944D234A254F00FFE3FD /* DynamicFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1149457234A254F00FFE3FD /* Build configuration list for PBXNativeTarget "DynamicFormTests" */;
+			buildPhases = (
+				E114944A234A254F00FFE3FD /* Sources */,
+				E114944B234A254F00FFE3FD /* Frameworks */,
+				E114944C234A254F00FFE3FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1149454234A254F00FFE3FD /* PBXTargetDependency */,
+			);
+			name = DynamicFormTests;
+			productName = DynamicFormTests;
+			productReference = E114944E234A254F00FFE3FD /* DynamicFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E17211052341157100C97303 /* DynamicForm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E172111A2341157500C97303 /* Build configuration list for PBXNativeTarget "DynamicForm" */;
@@ -144,6 +251,11 @@
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Andreas Hard Consulting AB";
 				TargetAttributes = {
+					E114944D234A254F00FFE3FD = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1110;
+						TestTargetID = E17211052341157100C97303;
+					};
 					E17211052341157100C97303 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -163,15 +275,24 @@
 			projectRoot = "";
 			targets = (
 				E17211052341157100C97303 /* DynamicForm */,
+				E114944D234A254F00FFE3FD /* DynamicFormTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E114944C234A254F00FFE3FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E17211042341157100C97303 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E112370623BE0ACF00F597DA /* demo_content.json in Resources */,
 				E17211162341157500C97303 /* LaunchScreen.storyboard in Resources */,
 				E17211132341157500C97303 /* Preview Assets.xcassets in Resources */,
 				E17211102341157400C97303 /* Assets.xcassets in Resources */,
@@ -181,22 +302,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E114944A234A254F00FFE3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17DE481234D7857007E20EF /* DynamicFormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E17211022341157100C97303 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16D6CD6235206A80040AD73 /* ImageViewModel.swift in Sources */,
 				E16C5EEC2347D2BC00038F4D /* RegisterView.swift in Sources */,
+				E122F82B2347EE8B00F51DEC /* RowModel.swift in Sources */,
 				E172110A2341157100C97303 /* AppDelegate.swift in Sources */,
-				E16C5EE42347CE2600038F4D /* TextViewRow.swift in Sources */,
-				E16C5EE82347CF0D00038F4D /* SectionModel.swift in Sources */,
+				E1149459234AA5FF00FFE3FD /* SectionModel.swift in Sources */,
+				E16D6CDE23523DA50040AD73 /* ButtonRowView.swift in Sources */,
+				E16C5EE42347CE2600038F4D /* TextFieldRowView.swift in Sources */,
+				E16D6CD42352060A0040AD73 /* RegisterViewModel.swift in Sources */,
+				E114945B234AA62600FFE3FD /* StylingModel.swift in Sources */,
+				E16D6CDA23520D270040AD73 /* ButtonViewModel.swift in Sources */,
+				E16D6CDC23523CE40040AD73 /* ImageViewRowView.swift in Sources */,
+				E16D6CD823520CD00040AD73 /* RowViewModel.swift in Sources */,
+				E17075932351307D001E0D2B /* ColorModel.swift in Sources */,
+				E16C5EE82347CF0D00038F4D /* SectionViewModel.swift in Sources */,
 				E16C5EEA2347D08F00038F4D /* SectionView.swift in Sources */,
 				E172110C2341157100C97303 /* SceneDelegate.swift in Sources */,
-				E172111F234115A400C97303 /* RegisterModel.swift in Sources */,
-				E16C5EE62347CEED00038F4D /* ItemModel.swift in Sources */,
+				E114945D234AA64800FFE3FD /* ResponseModel.swift in Sources */,
+				E16C5EE62347CEED00038F4D /* TextFieldRowViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1149454234A254F00FFE3FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E17211052341157100C97303 /* DynamicForm */;
+			targetProxy = E1149453234A254F00FFE3FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E17211142341157500C97303 /* LaunchScreen.storyboard */ = {
@@ -210,6 +357,49 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E1149455234A254F00FFE3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZNKGE79S9;
+				INFOPLIST_FILE = DynamicFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreashard.DynamicFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicForm.app/DynamicForm";
+			};
+			name = Debug;
+		};
+		E1149456234A254F00FFE3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZNKGE79S9;
+				INFOPLIST_FILE = DynamicFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreashard.DynamicFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicForm.app/DynamicForm";
+			};
+			name = Release;
+		};
 		E17211182341157500C97303 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -367,6 +557,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E1149457234A254F00FFE3FD /* Build configuration list for PBXNativeTarget "DynamicFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1149455234A254F00FFE3FD /* Debug */,
+				E1149456234A254F00FFE3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E17211012341157100C97303 /* Build configuration list for PBXProject "DynamicForm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

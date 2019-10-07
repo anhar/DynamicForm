@@ -1,0 +1,117 @@
+{
+  "navigationTitle": "Sign up",
+  "sections": [
+    {
+      "title": "Sign up",
+      "rows": [
+        {
+          "type": "image",
+          "imageURL": "https://domain.com/image.jpg",
+          "styling": {
+            "backgroundColor": {
+              "red": 235,
+              "green": 252,
+              "blue": 252,
+              "alpha": 0.8
+            },
+            "cornerRadius": 10
+          }
+        },
+        {
+          "type": "textField",
+          "placeholder": "Username",
+          "styling": {
+            "textColor": {
+              "red": 30,
+              "green": 204,
+              "blue": 204,
+              "alpha": 1.0
+            },
+            "placeholderTextColor": {
+              "red": 255,
+              "green": 255,
+              "blue": 255,
+              "alpha": 1.0
+            },
+            "backgroundColor": {
+              "red": 235,
+              "green": 252,
+              "blue": 252,
+              "alpha": 0.8
+            },
+            "cornerRadius": 5
+          }
+        },
+        {
+          "type": "textField",
+          "placeholder": "password",
+          "styling": {
+            "textColor": {
+              "red": 30,
+              "green": 204,
+              "blue": 204,
+              "alpha": 1.0
+            },
+            "placeholderTextColor": {
+              "red": 255,
+              "green": 255,
+              "blue": 255,
+              "alpha": 1.0
+            },
+            "backgroundColor": {
+              "red": 235,
+              "green": 252,
+              "blue": 252,
+              "alpha": 0.8
+            },
+            "cornerRadius": 5
+          }
+        },
+        {
+          "type": "textField",
+          "placeholder": "confirmPassword",
+          "styling": {
+            "textColor": {
+              "red": 30,
+              "green": 204,
+              "blue": 204,
+              "alpha": 1.0
+            },
+            "placeholderTextColor": {
+              "red": 255,
+              "green": 255,
+              "blue": 255,
+              "alpha": 1.0
+            },
+            "backgroundColor": {
+              "red": 235,
+              "green": 252,
+              "blue": 252,
+              "alpha": 0.8
+            },
+            "cornerRadius": 5
+          }
+        },
+        {
+          "type": "button",
+          "title": "Register!",
+          "styling": {
+            "textColor": {
+              "red": 255,
+              "green": 255,
+              "blue": 255,
+              "alpha": 0.6
+            },
+            "backgroundColor": {
+              "red": 30,
+              "green": 204,
+              "blue": 204,
+              "alpha": 1.0
+            },
+            "cornerRadius": 10
+          }
+        }
+      ]
+    }
+  ]
+}
