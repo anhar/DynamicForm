@@ -24,7 +24,7 @@ struct SectionView: View {
         case .textField(let viewModel):
             return AnyView(TextFieldRowView(row: viewModel))
         case .image(let viewModel):
-            return AnyView(ImageViewRowView(row: viewModel))
+            return AnyView(URLImageViewRowView(row: viewModel))
         case .button(let viewModel):
             return AnyView(ButtonRowView(row: viewModel))
         }

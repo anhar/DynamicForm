@@ -6,7 +6,7 @@
       "rows": [
         {
           "type": "image",
-          "imageURL": "https://domain.com/image.jpg",
+          "imageURL": "https://placekitten.com/g/1920/1080",
           "styling": {
             "backgroundColor": {
               "red": 235,

@@ -21,7 +21,7 @@ enum RowViewModel: Identifiable {
     }
 
     case textField(TextFieldRowViewModel)
-    case image(ImageViewModel)
+    case image(URLImageViewModel)
     case button(ButtonViewModel)
 
     init(response: RowModel) {
@@ -30,7 +30,7 @@ enum RowViewModel: Identifiable {
             let viewModel = TextFieldRowViewModel(response: model)
             self = .textField(viewModel)
         case .image(let model):
-            let viewModel = ImageViewModel(response: model)
+            let viewModel = URLImageViewModel(response: model)
             self = .image(viewModel)
         case .button(let model):
             let viewModel = ButtonViewModel(response: model)

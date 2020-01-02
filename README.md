@@ -24,7 +24,12 @@ Below you'll find the current components and their completion state:
 
 ### URLImage row
 
-- Not yet implemented
+- [x] Load image from URL
+- [x] Default fallback image
+- [ ] Caching loaded images from network
+- [ ] Loading indicator/loading image
+- [ ] Support multiple aspect ratios
+	- Right now only 16:9 works "good"
 
 ### Button row
 
